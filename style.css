@@ -1,5 +1,82 @@
+
+
+/* CSS file CONTATTI */
+
+.body1{
+    margin-left: 5%;
+}
+
+.part1{
+    display: flex; /* flex mette in riga gli elementi in quel contenitore */
+    align-items: normal;
+    justify-content: space-between;
+    gap: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* CSS file INDEX */ 
+
+.body_left{
+    flex: 1;
+}
+
+.body_right{
+    flex: 1;
+}
+
+.body_right img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+ul.servizi{
+    font-size: 135%;
+}
+
+section div p{
+    font-weight: 600;
+}
+
+
+/* CSS file SERVIZI*/
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 16px;
+}
+
+section.servizi{
+    margin-left: 5%;
+}
+
+article{
+    min-height: 400px;
+    display:flex;
+    flex-direction:column;
+}
+
+article p{
+    
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article img{
+  max-width: 500px;   /* scegli tu */
+  width: 100%;
+  height: auto;
+}
+
+section div article p{
+    margin: 5px 0 5px;
+}
+
+/* PER TUTTI I FILE */
 body{
     background-color: #8198ff;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 nav > ul{
@@ -38,36 +115,17 @@ h2{
     font-family: Arial, Helvetica, sans-serif;
 }
 h4{
+    color: rgb(255, 195, 156);
     font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0 6px;
 }
 p{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
 }
 
-.part1{
-    display: flex; /* flex mette in riga gli elementi in quel contenitore */
-    align-items: normal;
-    justify-content: space-between;
-    gap: 10px;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-.body_left{
-    flex: 1;
-}
-
-.body_right{
-    flex: 1;
-}
-
-.body_right img{
-    width: 100%;
-    height: auto;
+footer{
+    background-color: #4b5daf;
     display: block;
-}
-
-.servizi{
-    font-size: 135%;
+    color:beige;
 }
