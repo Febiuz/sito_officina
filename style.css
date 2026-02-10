@@ -4,7 +4,6 @@ body{
 h1{
     color: rgb(6, 163, 103);
     font-family: Arial, Helvetica, sans-serif;
-    
 }
 h2{
     color: rgb(224, 240, 3);
@@ -19,9 +18,11 @@ p{
 
 .part1{
     display: flex; /* flex mette in riga gli elementi in quel contenitore */
-    align-items: center;
+    align-items: normal;
     justify-content: space-between;
-
+    gap: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .body_left{
